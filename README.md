@@ -1,11 +1,11 @@
 # CUNY2x-CityTech-Internship
-CUNY City Tech Job Board for Internships and Entry Level Full Time Roles.
+CUNY City Tech Job Board(CityTech Job Central) for Internships and Entry Level Full Time Roles.
 
 - Building Web sites with HTML and CSS
 - Using JavaScript to make Web sites interactive
-- Developing your personal brand and online profiles
+- Developing an interactive website for students looking for jobs
 
-You'll use these skills to build an MVP (Most Viable Product) of your personal web site.
+You'll use these skills to build an MVP (Most Viable Product) of your Job Board Website.
 
 # Setup Instructions
 1. Fork this repo
@@ -25,19 +25,9 @@ You'll use these skills to build an MVP (Most Viable Product) of your personal w
 
 ### Acceptance criteria
 
-1. I can see your full name.
-2. I can see a picture of you.
-3. I can read a short description of you.
-
-<h2> As a user, I can see how to contact or follow you. </h2>
-
-### Acceptance criteria
-
-1. I can click a link to send a message to your preferred email address.
-2. I can click a link to visit your GitHub page.
-3. I can click a link to visit your LinkedIn page.
-
-<h2> As a user, I can navigate your site. </h2>
+1. Must use City Tech Colors
+2. Pages must be related
+3. Flitering options per Page
 
 ### Acceptance criteria
 
@@ -58,8 +48,8 @@ Make sure you do the following to successfully complete the projec:
 
 - Use HTML to build websites
 - Use CSS selectors to specify display ased on an element's characteristics
-- Manipulate the DOM using Javascript
-- Manipulate the conten and styling on the page by utilizing DOM Events and Event Listeners
+- Manipulate the DOM using Javascript<!---Maybe--->
+- Manipulate the content and styling on the page by utilizing DOM Events and Event Listeners <!---Maybe--->
 - Use Flexbox and Grid to layout a page
 
 <h3> Interactive site </h3>
@@ -70,26 +60,23 @@ Here are a few ideas to consider trying:
 
 - Clicking on a button expands to show more details or text.
 - Clicking on a button sorts a list of things (ascending or descending).
-- Clicking on a button or selecting an option filters a list of things (example: show all photos, show only travel photos)
+- Clicking on a button or selecting an option filters a list of things.
 - Instead of navigating to different pages, show and hide page content using JavaScript without loading a new page.
-- Entering information in a form adds content to the page or changes the page content
+- Filtering
 - Your own creative idea!
   
 <h3> Pages or Sections </h3>
   
-  You can choose to make your site one long page broken up into sections, or your site can have a few different pages.
+You can choose to make your site one long page broken up into sections, or your site can have a few different pages.
 
-Your site needs to implement all user stories and meet the UI/UX criteria. There are many ways to structure your site to do this. Personal sites often have some or all of these pages:
+Your site needs ulitize a API to update internships for the future. There are many ways to structure your site to do this. Job Boards sites often have some or all of these pages:
 
 1. Landing/Home Page: Your homepage is the first page that appears when the site loads. You know what a homepage is. You can put whatever you want here!
 
-2. About/Intro: The about page is where you get to talk about yourself. Do you have a pop pitch? This is the place to put it. Write a bio. Show a picture. Talk about your love of cats, books, or milkshakes. Make this part personal. You can have combine this section wit your landing page if it makes sense.
+2. About/Intro -Websites mission statement, purpose of the page and oppurtinuties listed.
+   
+3. Resources - Resources for upcomming jobs and career fairs and events.
 
-3. Contact links: You can put it at the bottom of your page as a footer or in a contact me section. A good font with tons of social icons is [FontAwesome](fontawesome.com)
-
-4. Other: (Optional) Anything else with things you may want to include, if you write, then a blog section, if you paint or photograph then a gallery section, projects you might be working on etc.
-
-<h3> Hints for showing and hiding elements </h3>
   
   **CSS based approach**
 
