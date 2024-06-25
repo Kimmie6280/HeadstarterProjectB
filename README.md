@@ -91,3 +91,10 @@ Your site needs ulitize a API to update internships for the future. There are ma
 - How can we use JavaScript to keep track of what things are supposed to be shown or hidden?
 - How can we use DOM events and JavaScript to change or replace the HTML or text content of an element when we want to show or hide something?
 
+<h1> Deadlines </h1>
+Week 1: Sumbit outline of features including plans for implementation and design by July 12th at 9am
+Week 2: Implment the skeleton of the websites by July 19th at 9am
+Week 3: Implement API pulls by July 26th at 9am
+Week 4: Test features and clean up code by August 2nd at 9am
+Week 5: Present Demo to CST department on August 8th, time TBD
+
