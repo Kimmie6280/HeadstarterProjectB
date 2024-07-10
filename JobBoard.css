@@ -10,6 +10,15 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+h3 {
+    font-family: Arial, sans-serif;
+    color: #F6B72B;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 90px; /* Adjust the height as needed */
+}
+
 .container {
     width: 80%;
     margin: 20px auto;
@@ -40,4 +49,40 @@ header {
 }
 .job a.button:hover {
     background: #214971;
+}
+.button {
+    display: inline-block;
+    background: #214971;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.navbar {
+    background-color: #214971;
+    overflow: hidden; /* Clear floats */
+}
+
+/* Navbar links */
+.navbar ul {
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the items */
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: inline; /* Makes the link fill the container */
+    color: white;
+    text-align: center;
+    padding: 1px 15px; /* Space around the link */
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
 }
