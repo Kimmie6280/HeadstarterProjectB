@@ -25,6 +25,13 @@ h4 {
     font-size: 20px;
     text-align: center;
 }
+
+h5 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 p{
     font-family: Arial, sans-serif;
     text-align: center;
@@ -126,4 +133,37 @@ p{
 /* Temporary for indicating the footer */
 p1{
     color: white;
+}
+
+.dropdown {
+    position: absolute;
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2980b9;
 }
