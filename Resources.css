@@ -145,3 +145,32 @@ p{
 p1{
     color: white;
 }
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.carousel-item img {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 150px;
+}
