@@ -146,7 +146,7 @@ p1{
     color: white;
 }
 
-.carousel-container {
+/*.carousel-container {
     position: relative;
     max-width: 600px;
     width: 100%;
@@ -173,4 +173,29 @@ p1{
     height: auto;
     border-radius: 10px;
     max-height: 150px;
+}*/
+
+
+
+.grid-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;  /* 2 columns */
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.grid-item a:hover {
+    text-decoration: underline;
 }

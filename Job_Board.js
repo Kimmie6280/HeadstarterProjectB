@@ -58,3 +58,59 @@ function getTextNodes(element) {
     }
     return textNodes;
 }
+
+
+
+    //const appId = 'f84ec22e'; // Replace with your Adzuna app ID
+    //const apikey = '9aa2e549176502958d63a0f4bad1c625'; // Replace with your Adzuna API key
+    fetch('https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=f84ec22e&app_key=9aa2e549176502958d63a0f4bad1c625&results_per_page=10&what=software%20engineer&where=New%20York', {
+    method: 'GET',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify( {
+        name: 'User 1'
+    })
+
+})
+.then(res => {
+    if(res.ok) {
+        console.log('Success')
+    }
+    else {
+        console.log("Not Successful")
+    }
+})
+.then(data => console.log(data))
+.catch(error => console.log('Error'))
+
+/*document.addEventListener("DOMContentLoaded", function() {
+    const appId = 'f84ec22e'; // Replace with your Adzuna app ID
+    const apiKey = '9aa2e549176502958d63a0f4bad1c625'; // Replace with your Adzuna API key
+    const apiUrl = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=f84ec22e&app_key=9aa2e549176502958d63a0f4bad1c625&results_per_page=10&what=software%20engineer&where=New%20York`;
+
+    fetch(apiUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            const jobListings = document.getElementById('job-listings');
+            data.results.forEach(job => {
+                const jobElement = document.createElement('div');
+                jobElement.classList.add('job');
+                jobElement.innerHTML = `
+          <h2>${job.title}</h2>
+          <p>${job.company.display_name}</p>
+          <p>${job.location.display_name}</p>
+          <p>${job.description}</p>
+        `;
+                jobListings.appendChild(jobElement);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching the API:', error);
+        });
+});*/
