@@ -28,3 +28,30 @@ function prevSlide() {
 
 // Automatically move to the next slide every 5 seconds
 setInterval(nextSlide, 5000);
+/*document.addEventListener("DOMContentLoaded", function() {
+    const carousel = document.querySelector('.carousel');
+    const carouselItems = document.querySelectorAll('.carousel-item');
+    let currentIndex = 0;
+
+    function showNextItem() {
+        currentIndex = (currentIndex + 1) % carouselItems.length;
+        updateCarousel();
+    }
+
+    function showPreviousItem() {
+        currentIndex = (currentIndex - 1 + carouselItems.length) % carouselItems.length;
+        updateCarousel();
+    }
+
+    function updateCarousel() {
+        const offset = -currentIndex * 100;
+        carousel.style.transform = `translateX(${offset}%)`;
+    }
+
+    // Automatic sliding
+    setInterval(showNextItem, 3000); // Change the interval as needed
+
+    // Optional: Add event listeners for next/previous buttons
+    // document.querySelector('.next').addEventListener('click', showNextItem);
+    // document.querySelector('.prev').addEventListener('click', showPreviousItem);
+});*/

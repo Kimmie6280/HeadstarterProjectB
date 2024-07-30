@@ -61,9 +61,9 @@ function getTextNodes(element) {
 
 
 
-    //const appId = 'f84ec22e'; // Replace with your Adzuna app ID
-    //const apikey = '9aa2e549176502958d63a0f4bad1c625'; // Replace with your Adzuna API key
-    fetch('https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=f84ec22e&app_key=9aa2e549176502958d63a0f4bad1c625&results_per_page=10&what=software%20engineer&where=New%20York', {
+    const appId = 'f84ec22e'; // Replace with your Adzuna app ID
+    const apikey = '9aa2e549176502958d63a0f4bad1c625'; // Replace with your Adzuna API key
+    fetch('https://api.adzuna.com/v1/api/jobs/us/search/1?apikey=f84ec22e&apiId=9aa2e549176502958d63a0f4bad1c625&where=New%20York', {
     method: 'GET',
     headers: {
         'Content-Type': 'application/json'
