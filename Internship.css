@@ -10,39 +10,36 @@ header {
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
+    margin: 0;
 }
 
 h1 {
     color: white;
 }
+
 h2 {
     color: #F6B72B;
     position: absolute;
     top: 10px;
     left: 10px;
-    height: 90px; /* Adjust the height as needed */
+    height: 90px;
 }
-h3 {
-    color: #214971;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
 
-}
-h4 {
+h3, h4, h5 {
     color: #214971;
     font-family: Arial, sans-serif;
     font-size: 20px;
 }
 
 h5 {
-    color: #214971;
-    font-family: Arial, sans-serif;
-    font-size: 20px;
+    margin: 20px;
 }
-a{
+
+a {
     display: block;
     margin-bottom: 10px;
 }
+
 .button {
     display: inline-block;
     background: #214971;
@@ -52,30 +49,26 @@ a{
     cursor: pointer;
     border-radius: 5px;
 }
+
 .navbar {
     background-color: #214971;
-    overflow: hidden; /* Clear floats */
+    overflow: hidden;
     justify-content: center;
     display: flex;
 }
 
-/* Navbar links */
 .navbar ul {
-    list-style: none; /* Remove default list styles */
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Align items horizontally */
-}
-
-.navbar li {
-    float: left;
+    display: flex;
 }
 
 .navbar a {
-    display: inline; /* Makes the link fill the container */
+    display: inline;
     color: white;
     text-align: center;
-    padding: 1px 15px; /* Space around the link */
+    padding: 1px 15px;
     text-decoration: none;
 }
 
@@ -84,40 +77,7 @@ a{
     color: black;
 }
 
-/*.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #2980b9;
-}*/
-
-p{
+p {
     font-family: Arial, serif;
     font-size: 16px;
 }
@@ -130,7 +90,7 @@ p{
 }
 
 .footer-links {
-    list-style: none; /* Remove default list styles */
+    list-style: none;
     padding: 0;
     margin: 10px 0 0;
     display: block;
@@ -141,17 +101,16 @@ p{
     color: white;
     text-decoration: none;
 }
-/* Temporary for indicating the footer */
-p1{
+
+p1 {
     color: white;
 }
 
 .carousel-container {
-    width: 100%; /* Adjust the width as needed */
-    /*height: 300px; /* Make the height equal to the width to create a square */
+    width: 100%;
     overflow: hidden;
     position: relative;
-    margin: auto; /* Center the carousel on the page */
+    margin: auto;
 }
 
 .carousel {
@@ -170,32 +129,13 @@ p1{
 .carousel-item img {
     max-width: 500px;
     height: auto;
-   object-fit: cover;
+    object-fit: cover;
 }
 
-/*.carousel-container {
-    width: 100%; /* Adjust the width as needed */
-    /*height: 300px; /* Make the height equal to the width to create a square
-    overflow: hidden;
-    position: relative;
-    margin: auto; /* Center the carousel on the page
-}
 
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.main-content {
+    margin: 10px; /* Adjust these values to control the margin of the main content */
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
 }
-
-.carousel-item {
-    min-width: 100%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.carousel-item img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover; /* Ensure the image maintains its aspect ratio
-}*/
