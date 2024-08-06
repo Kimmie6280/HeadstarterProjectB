@@ -29,11 +29,10 @@ h3, h4, h5, h6{
     color: #214971;
     font-family: Arial, sans-serif;
     font-size: 20px;
-}
-
-h5 {
     margin: 20px;
 }
+
+
 
 a {
     display: block;
@@ -48,6 +47,7 @@ a {
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .navbar {
