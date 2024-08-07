@@ -35,6 +35,7 @@ h3, h4, h5, h6 {
     color: #214971;
     font-family: Arial, sans-serif;
     font-size: 20px;
+    margin-bottom: 10px
 }
 
 a {
@@ -87,6 +88,8 @@ a {
 p {
     font-family: Arial, serif;
     font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .footer {
@@ -115,7 +118,7 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* 2 columns */
+    grid-template-columns: 1fr; /* 2 columns */
     gap: 10px;
     margin-right: 0; /* Right align the grid */
     position: absolute;
